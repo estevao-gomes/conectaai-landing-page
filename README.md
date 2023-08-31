@@ -7,3 +7,10 @@ A Fazer:
     - Implementar estilização no formulário de envio de contato.
     - Corrigir BG image do Hero
     - Implementar estilos para Tablet e Desktop.
+    - Levantar no Vercel
+    - Criar README
+            - Explicação
+            - Como rodar.
+            - Tecnologias utilizadas e porque.
+            - Pontos de consideração.
+            - Melhorias futuras.
