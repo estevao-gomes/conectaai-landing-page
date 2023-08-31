@@ -23,6 +23,9 @@ const config: Config = {
         'button' : {
           '500' : '#101213'
         }
+      },
+      boxShadow : {
+        'card' : '0px 8px 24px -4px rgba(0, 0, 0, 0.25)'
       }
     },
   },
