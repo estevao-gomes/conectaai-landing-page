@@ -26,4 +26,4 @@ Além destes, foram utilizadas as bibliotecas ESLint e prettier, sendo a primeir
 
 <h2>Pontos a levantar:</h2>
 
-Fonte Artigo - No design original foi utilizada uma fonte paga uchamada Artigo, que neste código foi substituida por fonte serif semelhante (PT_serif).
+Fonte Artigo - No design original foi utilizada uma fonte paga chamada Artigo, que neste código foi substituida por fonte serif semelhante (PT_serif).
