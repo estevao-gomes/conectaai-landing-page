@@ -22,6 +22,10 @@ const config: Config = {
         },
         'button' : {
           '500' : '#101213'
+        },
+        'preto' : {
+          '500' : "#1B1F1C"
+
         }
       },
       boxShadow : {

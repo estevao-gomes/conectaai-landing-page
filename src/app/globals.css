@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .formInput {
+        @apply w-full bg-transparent border border-b-0 border-l-0;
+    }
 
+    .formLabel {
+        @apply mt-6 opacity-30
+    }
+}
