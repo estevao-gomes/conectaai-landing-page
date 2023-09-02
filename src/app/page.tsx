@@ -1,4 +1,4 @@
-import { Hero, Products, CTA, Social, Contact } from "@/components";
+import { Hero, Products, CTA, Social, Contact, Footer } from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Social />
       <CTA />
       <Contact />
+      <Footer />
     </main>
   );
 }

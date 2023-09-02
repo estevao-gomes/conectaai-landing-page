@@ -9,9 +9,9 @@ interface props {
 
 export function Card({ image, name, description }: props) {
   return (
-    <div className="flex flex-col items-center mx-6 rounded-2xl border shadow-card mb-16">
+    <div className="flex flex-col items-center mx-6 rounded-2xl border shadow-card mb-16 md:flex-1">
       <Image
-        className="max-h-[300px] max-w-[200px]"
+        className="h-[300px] w-[200px]"
         src={image}
         alt="Imagem do produto"
       />

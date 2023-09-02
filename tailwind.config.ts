@@ -7,6 +7,11 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'md': '734px',
+
+      'xl': '1439px'
+    },
     extend: {
       backgroundImage: {
         'hero-pattern' : 'url(/assets/bgImage.jpeg)'
@@ -26,6 +31,9 @@ const config: Config = {
         'preto' : {
           '500' : "#1B1F1C"
 
+        },
+        'cinza' : {
+          '500' : 'rgba(255, 255, 255, 0.20)'
         }
       },
       boxShadow : {

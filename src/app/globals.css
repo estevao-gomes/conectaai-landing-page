@@ -4,10 +4,14 @@
 
 @layer components {
     .formInput {
-        @apply w-full bg-transparent border border-b-0 border-l-0;
+        @apply w-full bg-transparent border border-b-0 border-l-0 focus:bg-cinza-500 focus:text-white focus:border-verde-600;
     }
 
-    .formLabel {
-        @apply mt-6 opacity-30
+    .formLabel > p {
+        @apply mt-6 opacity-30 
+    }
+
+    .formLabel:focus-within > p {
+        @apply text-verde-600 opacity-100
     }
 }
